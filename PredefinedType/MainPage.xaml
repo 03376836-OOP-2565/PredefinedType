@@ -9,8 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="155,26,0,0" TextWrapping="Wrap" Text="Predefined type study" VerticalAlignment="Top"/>
-        <ListBox HorizontalAlignment="Left" Height="532" Margin="28,64,0,0" VerticalAlignment="Top" Width="118" SelectionChanged="ListBox_SelectionChanged">
+        <TextBlock HorizontalAlignment="Left" Margin="244,23,0,0" TextWrapping="Wrap" Text="Predefined type study" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="#FF006DFF"/>
+        <ListBox HorizontalAlignment="Left" Height="532" Margin="19,95,0,0" VerticalAlignment="Top" Width="118" SelectionChanged="ListBox_SelectionChanged">
             <ListBoxItem Content="sbyte"/>
             <ListBoxItem Content="byte"/>
             <ListBoxItem Content="short"/>
@@ -33,6 +33,7 @@
         <TextBox x:Name="typeCode" HorizontalAlignment="Left" Margin="299,140,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="341"/>
         <TextBlock HorizontalAlignment="Left" Height="25" Margin="194,180,0,0" TextWrapping="Wrap" Text="Type" VerticalAlignment="Top" Width="73"/>
         <TextBox x:Name="type" HorizontalAlignment="Left" Margin="299,177,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="341"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,76,0,0" TextWrapping="Wrap" Text="Click on a type name" VerticalAlignment="Top" FontSize="11" FontWeight="Normal" Foreground="#FF006DFF"/>
 
     </Grid>
 </Page>
